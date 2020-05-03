@@ -14,7 +14,8 @@
 /* Blog NiiHen */
 .dark body,
 .dark #nav,
-.dark .post-body h4  {
+.dark .post-body h4,
+.dark .post-outer:hover  {
 	background-color: #111;
 }
 .dark .post-body h4 {
@@ -26,12 +27,18 @@
     background-color: #303030cc;
 }
 .dark #header a, 
+.dark #header h1,
 .dark #header .description, 
 .dark input#feed-q-input,
 .dark .post h2.post-title a,
 .dark .post-body, 
 .dark .item-snippet,
-.dark .widget-content {
+.dark .widget-content,
+.dark .bwh-title .d-header abbr,
+.dark .breadcrumbs,
+.dark legend,
+.dark .pager-isi,
+.dark ul.recntpst .date {
     color: #fff;
 }
 .dark .post-body h3 {
@@ -44,9 +51,23 @@
 }
 .dark a:hover {color:#eee;}
 
-.dark a#sedot {
+.dark a#sedot, 
+.dark a.goblok {
     background: #eee6;
     color: #fff;
     border: 1px solid;
 }
-.dark a#sedot:hover {color: rgba(233, 121, 145, 0.51) 100%);}
+.dark #sedot:hover,
+.dark .goblok:hover {color: rgba(233, 121, 145, 0.51) 100%);}
+
+.dark a.loadpost {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 767px)
+.dark #navmobitop li a {background-color: #111;}
+
+.dark .post h1.post-title a {
+    color: #e97991;
+}
