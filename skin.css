@@ -26,6 +26,7 @@
 .dark .post-outer:hover {
     background-color: #303030cc;
 }
+.dark body,
 .dark #header a, 
 .dark #header h1,
 .dark #header .description, 
