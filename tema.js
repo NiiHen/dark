@@ -11,5 +11,5 @@ $(() => {
 });
 //]]>
 
-$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://cdn.jsdelivr.net/gh/NiiHen/dark@master/night.css') );
+$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://cdn.jsdelivr.net/gh/NiiHen/dark@master/gaya.css') );
 document.write("<div class='theme'><label class='switch'><input id='dark' name='toggle-flip' type='checkbox'/><span class='geser round'/></label></div>");
