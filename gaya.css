@@ -14,8 +14,7 @@
 /* Blog NiiHen */
 .dark body,
 .dark #nav,
-.dark .post-body h4,
-.dark .post-outer:hover  {
+.dark .post-body h4  {
 	background-color: #111;
 }
 .dark .post-body h4 {
@@ -23,7 +22,8 @@
 }
 .dark input#feed-q-input,
 .dark #header-wrapper, 
-.dark #outer-wrapper {
+.dark #outer-wrapper,
+.dark .post-outer:hover {
     background-color: #303030cc;
 }
 .dark #header a, 
@@ -38,7 +38,9 @@
 .dark .breadcrumbs,
 .dark legend,
 .dark .pager-isi,
-.dark ul.recntpst .date {
+.dark .pager-isi h6,
+.dark ul.recntpst .date,
+.dark ul.recntpst p {
     color: #fff;
 }
 .dark .post-body h3 {
