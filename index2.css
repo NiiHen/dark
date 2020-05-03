@@ -10,3 +10,26 @@
 .theme input:checked+.geser:before{-webkit-transform:translateX(15px);-ms-transform:translateX(15px);transform:translateX(15px)}
 .theme .geser.round{border-radius:34px}
 .theme .geser.round:before{border-radius:50%;background:#e97991}
+
+/* Blog NiiHen */
+.dark body,
+.dark input#feed-q-input,
+.dark #header-wrapper, 
+.dark #outer-wrapper {
+    background: #303030cc;
+}
+.dark #header a, 
+.dark #header .description, 
+.dark input#feed-q-input,
+.dark .post h2.post-title a,
+.dark .post-body, 
+.dark .item-snippet, .dark div#Attribution1.dark div#Attribution1 {
+    color: #fff;
+}
+.dark .post-body h3 {
+    background: linear-gradient(90deg, rgb(17, 17, 17) 0%, rgba(233, 121, 145, 0.51) 100%);
+    color: #fff;
+    border: 0px;
+}
+
+.dark a:hover {color:#eee;}
