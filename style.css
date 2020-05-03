@@ -30,7 +30,8 @@
 .dark input#feed-q-input,
 .dark .post h2.post-title a,
 .dark .post-body, 
-.dark .item-snippet, .dark div#Attribution1.dark div#Attribution1 {
+.dark .item-snippet,
+.dark .widget-content {
     color: #fff;
 }
 .dark .post-body h3 {
