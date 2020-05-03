@@ -13,10 +13,17 @@
 
 /* Blog NiiHen */
 .dark body,
+.dark #nav,
+.dark .post-body h4  {
+	background-color: #111;
+}
+.dark .post-body h4 {
+	border-top-color: #fff;
+}
 .dark input#feed-q-input,
 .dark #header-wrapper, 
 .dark #outer-wrapper {
-    background: #303030cc;
+    background-color: #303030cc;
 }
 .dark #header a, 
 .dark #header .description, 
@@ -31,5 +38,14 @@
     color: #fff;
     border: 0px;
 }
-
+.dark #comments h4 {
+    background-color: #915864;
+}
 .dark a:hover {color:#eee;}
+
+.dark a#sedot {
+    background: #eee6;
+    color: #fff;
+    border: 1px solid;
+}
+.dark a#sedot:hover {color: rgba(233, 121, 145, 0.51) 100%);}
